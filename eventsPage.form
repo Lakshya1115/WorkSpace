@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="eventsPage">
+  <grid id="27dc6" binding="eventPagePanel" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="547"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2ae79" class="javax.swing.JLabel" binding="event1_image">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="event1image"/>
+        </properties>
+      </component>
+      <hspacer id="4ed27">
+        <constraints>
+          <grid row="1" column="2" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="9a9e0" class="javax.swing.JLabel" binding="event1_name">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="event1name"/>
+        </properties>
+      </component>
+      <vspacer id="9ae42">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="36"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="f0fde" class="javax.swing.JButton" binding="event1">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13434881"/>
+          <text value="Know More:"/>
+        </properties>
+      </component>
+      <vspacer id="bd4fd">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="72"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="3521d">
+        <constraints>
+          <grid row="1" column="0" row-span="7" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="30" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="639a1" class="javax.swing.JLabel" binding="event2_image">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="event2image"/>
+        </properties>
+      </component>
+      <component id="c5488" class="javax.swing.JButton" binding="event2">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13434881"/>
+          <text value="Know More:"/>
+        </properties>
+      </component>
+      <hspacer id="ed7c4">
+        <constraints>
+          <grid row="1" column="4" row-span="7" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="30" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="2dbd7" class="javax.swing.JLabel" binding="event3_image">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="event3image"/>
+        </properties>
+      </component>
+      <component id="f5c51" class="javax.swing.JLabel" binding="event3_name">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="event3name"/>
+        </properties>
+      </component>
+      <component id="2c63a" class="javax.swing.JButton" binding="event3">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13434881"/>
+          <text value="Know More:"/>
+        </properties>
+      </component>
+      <vspacer id="62f9c">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="72"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="1f0c3" class="javax.swing.JLabel" binding="event4_image">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="event4image"/>
+        </properties>
+      </component>
+      <component id="c1ac" class="javax.swing.JLabel" binding="event4_name">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="event4name"/>
+        </properties>
+      </component>
+      <component id="a1219" class="javax.swing.JButton" binding="event4">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13434881"/>
+          <text value="Know More:"/>
+        </properties>
+      </component>
+      <vspacer id="3317f">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="36"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="6d705" class="javax.swing.JLabel" binding="event2_name">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="event2name"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
