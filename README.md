@@ -1,5 +1,3 @@
-Got it! Let's tailor the README to reflect that it's a **Java Swing** application. Here's the updated version:
-
 ---
 
 # 🎓 Workspace - Your All-in-One College Companion! 🎓
