@@ -108,7 +108,7 @@ We welcome contributions! Feel free to:
 
 ## 📧 **Need Help?**
 If you have any questions, ideas, or feedback, feel free to raise an issue in this repository or reach out to us at:  
-📧 workspace.support@college.com
+📧 *******@gmail.com
 
 ---
 
