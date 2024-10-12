@@ -26,8 +26,8 @@ public class mainMenu {
         bunkoMeterButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Switch to bunkoMeterPage
-                //switchToPage(new BunkoMeterPage(frame)); // You need to create BunkoMeterPage class
+//                 Switch to bunkoMeterPage
+                switchToPage(new BunkoMeterPage(frame).getBunkoMeterPanel()); // You need to create BunkoMeterPage class
             }
         });
         addAnEventButton.addActionListener(new ActionListener() {
