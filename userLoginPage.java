@@ -16,7 +16,7 @@ public class userLoginPage {
                 String enteredPassword = password.getText();
 
                 // Checking credentials
-                if (enteredUsername.equals("lr4911") && enteredPassword.equals("lakshya000")) {
+                if ( (enteredUsername.equals("lr4911") && enteredPassword.equals("lakshya000")) || (enteredUsername.equals("hz0003") && enteredPassword.equals("himansh000")) || (enteredUsername.equals("tv5561") && enteredPassword.equals("tejasvi000"))|| (enteredUsername.equals("ng9575") && enteredPassword.equals("nandini000")) ) {
                     JOptionPane.showMessageDialog(mainPanel, "Login Successful! Redirecting to the workspace...");
 
                     // Redirect to mainMenu and close the login page
