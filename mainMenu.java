@@ -20,7 +20,7 @@ public class mainMenu {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Switch to eventsPage
-                switchToPage(new eventsPage(frame).getEventsPanel()); // You need to create EventsPage class
+                switchToPage(new eventsPage(frame).getEventsPane()); // You need to create EventsPage class
             }
         });
         bunkoMeterButton.addActionListener(new ActionListener() {
