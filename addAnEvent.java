@@ -1,11 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 
 public class addAnEvent {
     private JPanel addAnEventCont;
@@ -25,30 +19,22 @@ public class addAnEvent {
         this.frame = frame;
 
         // ActionListener for the Submit button to store data in the database
-        submitButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String name = eventName.getText();
-                String date = eventDate.getText();
+        submitButton.addActionListener(e -> {
+            String name = eventName.getText();
+            String date = eventDate.getText();
 
-                if (!name.isEmpty() && !date.isEmpty()) {
-                    saveEventToDatabase(name, date);  // Save event to DB
-                    JOptionPane.showMessageDialog(frame, "Event saved successfully!");
-                    eventName.setText("");  // Clear the input fields
-                    eventDate.setText("");
-                } else {
-                    JOptionPane.showMessageDialog(frame, "Please fill in all fields.");
-                }
+            if (!name.isEmpty() && !date.isEmpty()) {
+                saveEventToDatabase(name, date);  // Save event to DB
+                JOptionPane.showMessageDialog(frame, "Event saved successfully!");
+                eventName.setText("");  // Clear the input fields
+                eventDate.setText("");
+            } else {
+                JOptionPane.showMessageDialog(frame, "Please fill in all fields.");
             }
         });
 
         // ActionListener for the Back button to return to the main menu
-        backButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                switchToMainMenu();  // Switch back to Main Menu
-            }
-        });
+        backButton.addActionListener(e -> switchToMainMenu());
     }
 
     // Method to save event details to the database
@@ -75,5 +61,19 @@ public class addAnEvent {
     // Getter for the main panel of this page
     public JPanel getAddAnEventPanel() {
         return addAnEventCont;
+    }
+
+    // Main method to launch the application
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Add an Event");
+            addAnEvent addEventPage = new addAnEvent(frame);
+
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setContentPane(addEventPage.getAddAnEventPanel());
+            frame.pack();
+            frame.setLocationRelativeTo(null);  // Center the window
+            frame.setVisible(true);
+        });
     }
 }
