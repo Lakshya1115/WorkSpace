@@ -1,6 +1,10 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 public class mainMenu {
     public JPanel mainMenuPanel;
@@ -33,15 +37,21 @@ public class mainMenu {
         addAnEventButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Switch to addAnEventPage
-                switchToPage(new addAnEvent(frame).getPanel()); // You need to create AddAnEventPage class
+                frame.setContentPane(new addAnEvent(frame).getAddAnEventPanel());  // Switch to Add Event page
+                frame.revalidate();
+                frame.pack();
             }
         });
+
         bridgeUButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Switch to bridgeUPage
-                //switchToPage(new BridgeUPage(frame)); // You need to create BridgeUPage class
+                // Redirect to the AlmaConnect website
+                try {
+                    Desktop.getDesktop().browse(new URI("https://www.almaconnect.com/")); // Open the website
+                } catch (IOException | URISyntaxException ex) {
+                    ex.printStackTrace(); // Handle exceptions appropriately
+                }
             }
         });
         collectDeliveryButton.addActionListener(new ActionListener() {
