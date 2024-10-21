@@ -34,7 +34,7 @@ public class mainMenu {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Switch to addAnEventPage
-                //switchToPage(new AddAnEventPage(frame)); // You need to create AddAnEventPage class
+                switchToPage(new addAnEvent(frame).getPanel()); // You need to create AddAnEventPage class
             }
         });
         bridgeUButton.addActionListener(new ActionListener() {
